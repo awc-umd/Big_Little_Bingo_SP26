@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(rgba(239, 168, 176, 0.5), rgba(239, 168, 176, 0.5));
+}
+
 .bingo-tile-btn {
   border: 2px solid rgba(255,255,255,0.4);
   padding: 0;
@@ -20,6 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(73, 73, 73, 0.5);
 }
 
 .bingo-complete::after {
@@ -32,4 +37,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: clamp(50px, 6vw, 120px);
+  font-weight: 999;
+  font-family: "Dancing Script";
+}
+
+h2 {
+  font-family: "Silkscreen";
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: 900;
+  color: #ac6388;
+}
+
+.bingo-text {
+  color: #ffffffd8;
+  font-family: "Lavishly Yours";
+  font-size: clamp(15px, 5vw, 60px);
+  font-weight: 500;
+}
+
+.btn-form {
+  font-family: "Lavishly Yours";
+  font-size: clamp(20px, 5vw, 40px);
+  border-radius: 300px;
+  text-decoration: underline;
+  color: #ac6388;
 }
