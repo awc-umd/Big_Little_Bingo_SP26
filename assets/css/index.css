@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(239, 168, 176, 0.5), rgba(239, 168, 176, 0.5));
+  background-image: linear-gradient(rgba(239, 168, 176, 0.5), rgba(229, 51, 71, 0.5));
 }
 
 .bingo-tile-btn {
@@ -40,28 +40,29 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: #4c0863;
   font-size: clamp(50px, 6vw, 120px);
   font-weight: 999;
-  font-family: "Dancing Script";
+  font-family: "Lavishly Yours";
+  text-decoration: underline;
 }
 
 h2 {
   font-family: "Silkscreen";
-  font-size: clamp(40px, 5vw, 60px);
+  font-size: clamp(30px, 5vw, 50px);
   font-weight: 900;
   color: #ac6388;
 }
 
 .bingo-text {
   color: #ffffffd8;
-  font-family: "Lavishly Yours";
+  font-family: "Dancing Script";
   font-size: clamp(15px, 5vw, 60px);
   font-weight: 500;
 }
 
 .btn-form {
-  font-family: "Lavishly Yours";
+  font-family: Kabel;
   font-size: clamp(20px, 5vw, 40px);
   border-radius: 300px;
   text-decoration: underline;
